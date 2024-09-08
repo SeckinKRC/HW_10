@@ -1,0 +1,32 @@
+    1  git status
+    2  git init
+    3  git status
+    4  git clone https://github.com/SeckinKRC/HW_10.git
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  git status
+    8  git add.
+    9  git add .
+   10  git commit -m "Gorev 1 textignore eklendi"
+   11  git status
+   12  touch main_test.txt
+   13  git add .
+   14  git commit -m "Gorev 2 maintest eklendi"
+   15  git status
+   16  git branch
+   17  git branch develop
+   18  git branch
+   19  git checkout develop
+   20  git branch
+   21  touch develop_test.txt
+   22  git add .
+   23  git commit -m "Gorev 3 developtest eklendi"
+   24  git status
+   25  git add .
+   26  git commit -m "Gorev 3 developtest degisiklikler yapildi"
+   27  git branch
+   28  git checkout main
+   29  git branch
+   30  git merge develop
+   31  git log
+   32  history > command_list.csv
